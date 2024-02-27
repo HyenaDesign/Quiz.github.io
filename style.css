@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1584968203528-00005749189c?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+.content {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.quiz {
+    background: rgba(213, 223, 224, 0.20);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+    width: 90%; /* Adjust the width as needed */
+    max-width: 600px; /* Set maximum width */
+    padding: 5%; /* Adjust padding */
+}
+
+button {
+    background-color: yellowgreen;
+    border: none;
+    padding: 1vw; /* Use viewport width for padding */
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
